@@ -1,12 +1,15 @@
-# T-Ruby for Visual Studio Code
+# T-Ruby for VS Code & Cursor
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/t-ruby.t-ruby?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=t-ruby.t-ruby)
-[![Open VSX](https://img.shields.io/open-vsx/v/t-ruby/t-ruby?label=Open%20VSX)](https://open-vsx.org/extension/t-ruby/t-ruby)
-[![VS Code Installs](https://img.shields.io/visual-studio-marketplace/i/t-ruby.t-ruby)](https://marketplace.visualstudio.com/items?itemName=t-ruby.t-ruby)
-[![T-Ruby Compiler](https://img.shields.io/gem/v/t-ruby?label=T-Ruby%20Compiler)](https://rubygems.org/gems/t-ruby)
+[![T-Ruby](https://img.shields.io/gem/v/t-ruby?label=T-Ruby)](https://rubygems.org/gems/t-ruby)
 [![License](https://img.shields.io/github/license/type-ruby/t-ruby-vscode)](LICENSE)
 
-T-Ruby language support for Visual Studio Code. Provides syntax highlighting, LSP-based code intelligence, and development tools for [T-Ruby](https://github.com/type-ruby/t-ruby) - a TypeScript-style static type system for Ruby.
+**VS Code**  
+[![Extension](https://img.shields.io/visual-studio-marketplace/v/t-ruby.t-ruby?label=Extension)](https://marketplace.visualstudio.com/items?itemName=t-ruby.t-ruby) [![Downloads](https://img.shields.io/visual-studio-marketplace/i/t-ruby.t-ruby?label=Downloads)](https://marketplace.visualstudio.com/items?itemName=t-ruby.t-ruby)
+
+**Cursor (Open VSX)**  
+[![Extension](https://img.shields.io/open-vsx/v/t-ruby/t-ruby?label=Extension)](https://open-vsx.org/extension/t-ruby/t-ruby) [![Downloads](https://img.shields.io/open-vsx/dt/t-ruby/t-ruby?label=Downloads)](https://open-vsx.org/extension/t-ruby/t-ruby)
+
+T-Ruby language support for VS Code and Cursor. Provides syntax highlighting, LSP-based code intelligence, and development tools for [T-Ruby](https://github.com/type-ruby/t-ruby) - a TypeScript-style static type system for Ruby.
 
 ## Features
 
@@ -46,15 +49,14 @@ Or install via command line:
 code --install-extension t-ruby.t-ruby
 ```
 
-## Cursor
+### Cursor
 
-This extension is also available for [Cursor](https://cursor.com), a fork of VS Code.
+Install from the [Open VSX Registry](https://open-vsx.org/extension/t-ruby/t-ruby):
 
-- **Same codebase**: Cursor uses the same extension code as VS Code
-- **Different marketplace**: Install from Open VSX Registry instead of VS Code Marketplace
-
-Install for Cursor:
-- Open VSX: https://open-vsx.org/extension/t-ruby/t-ruby
+1. Open Cursor
+2. Go to Extensions (Ctrl+Shift+X)
+3. Search for "T-Ruby"
+4. Click Install
 
 ## Configuration
 
@@ -65,12 +67,6 @@ Install for Cursor:
 | `t-ruby.diagnostics.enable` | `true` | Enable real-time diagnostics |
 | `t-ruby.completion.enable` | `true` | Enable autocomplete suggestions |
 
-## Compatibility
-
-| Extension Version | T-Ruby Compiler |
-|-------------------|-----------------|
-| 0.1.x             | >= 0.0.30       |
-
 ## Related
 
 - [T-Ruby Compiler](https://github.com/type-ruby/t-ruby) - The main T-Ruby compiler
@@ -79,4 +75,4 @@ Install for Cursor:
 
 ## License
 
-MIT
+BSD 2-Clause
